@@ -1,0 +1,303 @@
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    color: darkmagenta  ;
+
+}
+.subheading{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(64, 122, 248);
+}
+
+.mainposter{
+
+    width: 500px;
+
+}
+
+.mainposterdiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: rgb(121, 30, 30);
+}
+
+.hd4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: 200px;
+    color: rgb(206, 150, 117);
+}
+
+
+
+.pythonposter{
+    width: 350px;
+   
+
+}
+
+.pythondiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.webposter{
+
+    width: 350px;
+}
+
+.webdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flutterposter{
+
+    width: 350px;
+
+}
+
+.flutterdiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(143, 232, 238);
+}
+
+.web{
+    text-align: center;
+}
+
+.registerlink{
+    text-decoration: none;
+    color: rgb(225, 241, 153);
+}
+
+.registerlinkdiv1{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+    color: aqua;
+    
+}
+
+.registerlinkdiv2{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: aqua;
+    
+}
+
+.rld3{
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    text-decoration: none;
+    text-align: center;
+
+   color: rgb(95, 192, 51);
+    
+}
+
+@media screen and (max-width=350px){
+    .subheading{
+        
+        text-align: center;
+
+    }
+    
+}
+
+@media screen and (maxwidth=375px) {
+    .mainposterdiv{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mainposter {
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .mainposter {
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pythonposter {
+        width: 250px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .pythonposter {
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .webposter {
+        width: 250px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .webposter {
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .flutterposter {
+        width: 250px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .flutterposter {
+        width: 135px;
+    }
+}
+
+.pythonbtn{
+  
+    border: none;
+    background-color: rgb(243, 16, 8);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    
+    margin: 25px 45%;
+    
+    
+}
+
+.pythonbtn:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.webbtn{
+    
+    border: none;
+    background-color: rgb(243, 16, 8);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    
+    margin: 25px 45%;
+
+    
+}
+
+.webbtn:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.flutterbtn{
+    
+    border: none;
+    background-color: rgb(243, 16, 8);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    
+    margin: 25px 45%;    
+
+}
+
+.flutterbtn:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+@media screen and (maxwidth=375px) {
+    .pythonbtn{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pythonbtn {
+        width: 75px;
+        border-radius: 10px;
+    }
+}
+@media screen and (maxwidth=375px) {
+    .webbtn{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .webbtn {
+        width: 75px;
+        border-radius: 10px;
+    }
+}
+@media screen and (maxwidth=375px) {
+    .flutterbtn{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .flutterbtn {
+        width: 75px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
